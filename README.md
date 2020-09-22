@@ -1,1 +1,1 @@
-# google-homepage
+This is my google homepage. I realize it is pretty basic, but my aim was just to fiddle around with CSS a bit. My real interest is proving to be in JavaScript. Not to say I am neglecting CSS but I refuse to overwhelm myself spending days on a project. I will eventually watch a youtube tutorial on how to make this page seem more legit!
