@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style>
+    .topnav {
+        padding: 15px;
+    }
+
+    .topnavr {
+        float: right;
+        right: 0;
+
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .google {
+        margin-top: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .searchform input {
+        border: 0px;
+        margin-left: 10px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        outline: none;
+    }
+
+    .searchbar {
+        border-radius: 25px;
+        border-style: solid;
+        width: 270px;
+        height: 20px;
+        display: return;
+        justify-content: start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search-buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5vh;
+    }
+    #footer {
+    position:fixed;
+    bottom:0;
+    overflow: hidden;
+    display: flex;
+    justify-self: flex-end;
+    justify-content: space-between;
+    min-height: 2.5em;
+    background-color: rgba(0, 0, 0, 0.05);
+    align-content: center;
+    flex-wrap: wrap;
+}
+</style>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#About">About</a>
+        <a href="#store">Store</a>
+        <div class="topnavr">
+            <a href="#Gmail">Gmail</a>
+            <a href="#images">Images</a>
+            <a href="#icon">Icon</a>
+            <a href="#signin">Sign in</a>
+        </div>
+    </div>
+    <img class="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="google logo">
+    <div class="searchbar">
+        <form class="searchform">
+            <input type="text">
+            <placeholder type="text"></placeholder>
+        </form>
+    </div>
+    <div class="search-buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling lucky</button>
+    </div>
+    <div id="footer"> 
+        <div id="footer-container-one">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+        <div id="footer-container-two">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</body>
+
+</html>
